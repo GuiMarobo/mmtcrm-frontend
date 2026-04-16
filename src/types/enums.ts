@@ -1,0 +1,87 @@
+export enum Role {
+  ADMIN = 'ADMIN',
+  VENDEDOR = 'VENDEDOR',
+  ATENDENTE = 'ATENDENTE',
+  TECNICO = 'TECNICO',
+}
+
+export enum UserStatus {
+  ATIVO = 'ATIVO',
+  INATIVO = 'INATIVO',
+}
+
+export enum ClientStatus {
+  LEAD = 'LEAD',
+  ATIVO = 'ATIVO',
+  INATIVO = 'INATIVO',
+}
+
+export enum LeadQualification {
+  NAO_QUALIFICADO = 'NAO_QUALIFICADO',
+  QUALIFICADO = 'QUALIFICADO',
+  ALTA_INTENCAO = 'ALTA_INTENCAO',
+}
+
+export enum LeadOrigin {
+  WHATSAPP = 'WHATSAPP',
+  INSTAGRAM = 'INSTAGRAM',
+  SITE = 'SITE',
+  INDICACAO = 'INDICACAO',
+  OUTRO = 'OUTRO',
+}
+
+export enum ProductCategory {
+  IPHONE = 'IPHONE',
+  MACBOOK = 'MACBOOK',
+  IPAD = 'IPAD',
+  WATCH = 'WATCH',
+  AIRPODS = 'AIRPODS',
+  ACESSORIO = 'ACESSORIO',
+  SERVICO = 'SERVICO',
+}
+
+export enum ProductStatus {
+  DISPONIVEL = 'DISPONIVEL',
+  INDISPONIVEL = 'INDISPONIVEL',
+  DESCONTINUADO = 'DESCONTINUADO',
+}
+
+export enum DeviceCondition {
+  EXCELENTE = 'EXCELENTE',
+  BOM = 'BOM',
+  REGULAR = 'REGULAR',
+  RUIM = 'RUIM',
+  DEFEITUOSO = 'DEFEITUOSO',
+}
+
+export enum NegotiationStatus {
+  EM_ANDAMENTO = 'EM_ANDAMENTO',
+  AGUARDANDO_AVALIACAO = 'AGUARDANDO_AVALIACAO',
+  ORCAMENTO_ENVIADO = 'ORCAMENTO_ENVIADO',
+  CONCLUIDA = 'CONCLUIDA',
+  CANCELADA = 'CANCELADA',
+}
+
+export enum QuotationStatus {
+  RASCUNHO = 'RASCUNHO',
+  EMITIDO = 'EMITIDO',
+  APROVADO = 'APROVADO',
+  RECUSADO = 'RECUSADO',
+  EXPIRADO = 'EXPIRADO',
+}
+
+export enum OrderStatus {
+  PROCESSANDO = 'PROCESSANDO',
+  CONCLUIDO = 'CONCLUIDO',
+  AGUARDANDO_PAGAMENTO = 'AGUARDANDO_PAGAMENTO',
+  CANCELADO = 'CANCELADO',
+}
+
+export enum PaymentMethod {
+  PIX = 'PIX',
+  CARTAO_CREDITO = 'CARTAO_CREDITO',
+  CARTAO_DEBITO = 'CARTAO_DEBITO',
+  BOLETO = 'BOLETO',
+  TRANSFERENCIA = 'TRANSFERENCIA',
+  DINHEIRO = 'DINHEIRO',
+}
